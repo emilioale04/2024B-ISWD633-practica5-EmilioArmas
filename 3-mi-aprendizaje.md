@@ -1,3 +1,4 @@
 # COMPLETAR  
-Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
-Si solucionó un problema presentado al realizar la práctica también se debe documentar.
+Antes de la práctica, tenía un conocimiento básico sobre contenedores y cómo usarlos de forma aislada, pero no sabía cómo configurarlos para crear varios contenedores a la vez. Ahora he aprendido a usar docker compose para crear varios contenedores que trabajen juntos sin ingresar comandos línea a línea, implementando conocimientos previos como redes, variables de entorno, healthchecks y volúmenes.
+
+Un problema que tuve fue entender cómo se ejecuta correctamente docker compose. Aprendí que el archivo `.yaml` debe ubicarse en el mismo directorio desde donde se ejecuta el comando, ya que cada directorio puede contener su propio conjunto de servicios (contenedores). Esto me permitió entender cómo se crean y organizan los servicios.
